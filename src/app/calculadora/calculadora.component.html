@@ -1,0 +1,14 @@
+<h1 style="color:red">Calculadora</h1>
+<div>
+    <h3>Resultado: {{resultado}}</h3>
+</div>
+<div>
+    <button style="width:30px; height:30px; margin:3px" (click)="sumarNumeros()">+</button>
+    <button style="width:30px; height:30px; margin:3px" (click)="restarNumeros()">-</button>
+    <button style="width:30px; height:30px; margin:3px" (click)="multiplicarNumeros()">x</button>
+</div>
+<br>
+<div>
+    Número 1: <input type="number" [(ngModel)]="numero1"><br><br>
+    Número 2: <input type="number" [(ngModel)]="numero2">
+</div>
